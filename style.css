@@ -1,0 +1,1569 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+html,body{
+          width: 100%;
+          height: 100%;
+          overflow-x: hidden;
+          overflow-y: auto;
+}
+
+
+
+    
+#nav{
+          position: fixed;
+          z-index: 999;
+          height: 15vh;
+          width: 100vw;
+          background-color: black;
+          color: #fff;
+          list-style: none;
+          align-items: center;
+          text-decoration: none;
+          justify-content: space-around;
+          display: flex;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nav a{
+          text-decoration: none;
+          list-style: none;
+}
+
+
+
+#nav h1{
+          position: relative;
+          overflow: hidden;
+          font-size: 13px;
+          padding: 0px 5px;
+          text-decoration: none;
+          list-style: none;
+          color: rgba(60, 146, 60, 0.929);
+}
+#nav h1:hover{
+           color: rgba(242, 244, 223, 0.844);
+}
+#nav h2{
+          position: relative;
+          overflow: hidden;
+          font-size: 13px;
+          padding: 0px 5px;
+          color: rgba(60, 146, 60, 0.929);
+}
+#nav h2:hover{
+    color: rgba(242, 244, 223, 0.844);
+}
+#nav h3{
+          position: relative;
+          overflow: hidden;
+          font-size: 13px;
+          padding: 0px 5px;
+          color: rgba(60, 146, 60, 0.929);
+}
+#nav h3:hover{
+    color: rgba(242, 244, 223, 0.844);
+}
+#nav h4{
+          position: relative;
+          overflow: hidden;
+          font-size: 13px;
+          padding: 0px 5px;
+          color: rgba(60, 146, 60, 0.929);
+}
+#nav h4:hover{
+    color: rgba(242, 244, 223, 0.844);
+}
+#nav h5{
+          position: relative;
+          overflow: hidden;
+          font-size: 13px;
+          padding: 0px 5px;
+          color: rgba(60, 146, 60, 0.929);
+}
+#nav h5:hover{
+    color: rgba(242, 244, 223, 0.844);
+}
+#nav h6{
+          position: relative;
+          overflow: hidden;
+          font-size: 13px;
+          padding: 0px 5px;
+          color: rgba(60, 146, 60, 0.929);
+}
+#nav h6:hover{
+    color: rgba(242, 244, 223, 0.844);
+}
+#main{
+          width: 100vw;
+          height: 100vh;
+          background-color:#000;
+          position: relative;
+          overflow-x: hidden;
+          overflow-y: auto;
+}
+#main .container{
+          position: relative;
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+}
+
+.container iframe{
+          width: 100vw;
+          height: 100vh;
+          position: absolute;
+          opacity: 1;
+}
+#main .container .img1{
+          position: absolute;
+          top: 55%;
+          
+}
+#main .container .img1 img{
+          position: relative;
+          width:250px ;
+          height:150px;
+          left: 50%;
+}
+#main .container .img2{
+          position: absolute;
+          top: 60%;
+          
+}
+#main .container .img2 img{
+          position: relative;
+          width:200px ;
+          height:180px;
+          left: 570%;
+}
+.container img{
+          position: relative;
+          width: 100vh;
+          height: 40vh;
+          top: 60%;
+}
+                                /* ------page1------ */
+#main .page1{
+    background-color: rgba(255, 248, 220, 0.822);
+          width: 100vw;
+          height: 100vh;
+          position: relative;
+}
+#main .page1 .text{
+           position: relative;
+           left: 25%;
+           bottom: 8%;
+}
+#main .page1 h1{
+          position: relative;
+          color: rgba(11, 37, 11, 0.57);
+          left: 30%;
+          bottom: 2%;
+          font-size: 13px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main .page1 h2{
+          position: relative;
+          color: rgba(11, 37, 11, 0.57);
+          left: 37%;
+          bottom: 2%;
+          font-size: 13px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main .page1 h3{
+          position: relative;
+          color: rgba(11, 37, 11, 0.57);
+          left: 39%;
+          bottom: 2%;
+          font-size: 13px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main .page1 h4{
+          position: relative;
+          color: rgba(11, 37, 11, 0.57);
+          left: 45%;
+          top: 1%;
+          font-size: 13px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main .tatoo img{
+          position: relative;
+          left: 43%;
+          margin-top: 40px;
+}      
+                         /* ------- page2--------- */
+#main .page2{
+          width: 100vw;
+          height: 100vh;
+          position: relative;     
+          background-color: rgba(255, 248, 220, 0.822);
+}
+#main .page2 h1 img{
+          position: relative;
+          left: 15%;
+}
+#main .page2 .images {
+          position: relative;
+          display: flex;
+          justify-content: space-evenly;
+          
+}
+#main .page2 .images img{
+          cursor: pointer;
+          transition: 0.5s;
+}
+#main .page2 .images img:hover{
+             transform: scale(1);
+}
+                        /* ---------page3------- */
+#main .page3{
+          width: 100vw;
+          height: 60vh;
+          background-color: rgba(255, 248, 220, 0.822);
+          position: relative;
+          display: flex;
+          justify-content: space-between;
+}
+#main .left{
+          position: relative;
+          left: 7%;
+          height: 40vh;
+}
+.left h1{
+          position: relative;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 18px;
+      color: rgba(11, 37, 11, 0.759);
+      left: 42%;
+      top: 1%;
+}
+.left h2{
+          position: relative;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 11px;
+      color: rgba(11, 37, 11, 0.57);
+      left: 7%;
+      top: 4%;
+}
+.left h3{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+color: rgba(11, 37, 11, 0.57);
+left: 8%;
+top: 4%;
+}
+.left h4{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+color: rgba(11, 37, 11, 0.57);
+left: 34%;
+ top: 4%;
+}
+.left button{
+      position: relative;
+      top: 15%;
+      left: 39%;
+      padding: 10px 30px;
+      border: 1px solid rgba(11, 37, 11, 0.57);
+      color: rgba(11, 37, 11, 0.57);
+      background-color: rgba(255, 248, 220, 0.169);
+      border-radius: 50px;
+}
+.left button:hover{
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#main .right{
+    position: relative;
+    height: 40vh;
+    right: 5%;
+}
+.right h1{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+color: rgba(11, 37, 11, 0.759);
+left: 42%;
+top: 1%;
+}
+.right h2{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+color: rgba(11, 37, 11, 0.57);
+left: 7%;
+top: 4%;
+}
+.right h3{
+position: relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 11px;
+color: rgba(11, 37, 11, 0.57);
+left: 12%;
+top: 4%;
+}
+.right h4{
+position: relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 11px;
+color: rgba(11, 37, 11, 0.57);
+left: 30%;
+top: 4%;
+}
+.right button{
+position: relative;
+top: 15%;
+left: 40%;
+padding: 10px 30px;
+border: 1px solid rgba(11, 37, 11, 0.57);
+color: rgba(11, 37, 11, 0.57);
+background-color: rgba(255, 248, 220, 0.157);
+border-radius: 50px;
+}
+.right button:hover{
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#main .page3 .slide{
+      position: absolute;
+      justify-content: space-between;
+      width: 80px;
+      height: 100px;
+      top: 70%;
+      right: 100%;
+      display: flex;
+      
+}
+#main .page3 .slide img{
+    display: inline-block;
+    
+    animation-name: scroll;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     /* animation-direction: reverse;  */
+} 
+                   /* ------------page4-------------- */
+#main .page4{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#main .page4 .top{
+         width: 100vw;
+         height: 50vh;
+         position: relative;
+         background-color: red;
+         display: flex;
+}
+
+#main .page4 .top .box1{
+       width: 25vw;
+       height: 50vh;
+       position: relative;
+       background-size: cover;
+       background-position: center;
+       cursor: pointer;
+       overflow: hidden;
+}
+#main .page4 .top .box1 img{
+       cursor: pointer;
+       transition: 0.5s;
+}
+#main .page4 .top .box1 img:hover{
+    transform: scale(1.15);
+}
+#main .page4 .top .box2{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+#main .page4 .top .box2 img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#main .page4 .top .box2 img:hover{
+ transform: scale(1.15);
+}
+#main .page4 .top .box3{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+#main .page4 .top .box3 img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#main .page4 .top .box3 img:hover{
+ transform: scale(1.15);
+}
+#main .page4 .top .box4{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+#main .page4 .top .box4 img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#main .page4 .top .box4 img:hover{
+ transform: scale(1.15);
+}
+
+
+#main .page4 .bottom{
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    background-color: blue;
+    display: flex;
+}
+#main .page4 .bottom .box1{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+#main .page4 .bottom .box1 img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#main .page4 .bottom .box1 img:hover{
+ transform: scale(1.15);
+}
+#main .page4 .bottom .box2{
+ width: 25vw;
+ height: 50vh;
+ position: relative;
+ background-size: cover;
+ background-position: center;
+ overflow: hidden;
+}
+#main .page4 .bottom .box2 img{
+ cursor: pointer;
+ transition: 0.5s;
+}
+#main .page4 .bottom .box2 img:hover{
+transform: scale(1.15);
+}
+#main .page4 .bottom .box3{
+ width: 25vw;
+ height: 50vh;
+ position: relative;
+ background-size: cover;
+ background-position: center;
+ overflow: hidden;
+}
+#main .page4 .bottom .box3 img{
+ cursor: pointer;
+ transition: 0.5s;
+}
+#main .page4 .bottom .box3 img:hover{
+transform: scale(1.15);
+}
+#main .page4 .bottom .box4{
+ width: 25vw;
+ height: 50vh;
+ position: relative;
+ background-size: cover;
+ background-position: center;
+ overflow: hidden;
+}
+#main .page4 .bottom .box4 img{
+ cursor: pointer;
+ transition: 0.5s;
+}
+#main .page4 .bottom .box4 img:hover{
+transform: scale(1.15);
+}
+
+               /* -----------page5----------- */
+#main .page5{
+         width: 100vw;
+         height: 50vh;
+         position: relative;
+         background-color:rgba(80, 137, 80, 0.635);
+} 
+#main .page5 .names{
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgba(255, 68, 0, 0.836);
+        font-size: 8px;
+        top: 3%;
+        position: relative;
+        justify-content: space-around;
+}
+
+#main .page5 p{
+       position: relative;
+       top: 17%;
+       left: 25%;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 25px;
+       color:rgba(150, 215, 150, 0.978) ;
+}
+
+#main .page5 h2{
+    position: relative;
+    top: 22%;
+    left: 30%;
+}
+#main .page5 button{
+    position: relative;
+    padding: 11px 30px;
+    top: 27%;
+    left: 44%;
+    border-radius: 50px;
+    color:rgba(150, 215, 150, 0.978) ;
+    border: 1px solid  rgba(150, 215, 150, 0.978);
+    background-color: rgba(150, 215, 150, 0.092);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main .page5 button:hover{
+     background-color: red;
+     color: white;
+     border: none;
+     cursor: pointer;
+}
+
+                            /* ------------page6------------ */
+#main .page6{
+              position: relative;
+              width: 100vw;
+              height: 70vh;
+              display: flex;
+              align-items: center;
+              background-size: cover;
+              background-position: center;
+              background-image: url(https://aztec-rum.com/wp-content/uploads/2022/11/Aztec-Golden-Organic-Rum-Hero-2200x1200-2.jpg);
+
+}
+#main .page6 img{
+             position: relative;
+             z-index: 999;     
+             left: 43%;   
+             top: 15%;
+}                              
+                                  /* --------------page7------------- */
+#main .page7{
+    position: relative;
+    width: 100vw;
+    height:150vh ;
+    display: flex;
+    justify-content: space-between;
+}
+#main .page7 .left{
+    position: relative;
+    width: 50vw;
+    height: 150vh;
+    left: 0;
+    background-color: red;
+}
+#main .page7 .left img{
+           position: relative;
+           top: 10%;
+           left: 35%;
+}
+#main .page7 .left h3{
+         position: relative;
+         top: 13%;
+         left: 24%;
+         font-size: 23px;
+}
+#main .page7 .left p{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgba(0, 128, 0, 0.79);
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    top: 15%;
+    left: 1.5%;
+    padding: 17px;
+}
+#main .page7 .left h4{
+       position: relative;
+       top: 7%;
+       font-size: 20px;
+       font-family: monospace;
+       left: 42%;
+     text-decoration: underline; 
+}
+ #main .page7 .left h4 a {
+    background-image: linear-gradient(
+      to right,
+      #54d68a,
+      #54d670 50%,
+      rgba(61, 206, 28, 0.749) 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #main .page7 .left h4  a:before {
+    content: '';
+    background: #54d677;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #main .page7 .left h4 a:hover {
+   background-position: 0;
+   cursor: pointer;
+  }
+  
+  #main .page7 .left h4  a:hover::before {
+    width:100%;
+  }
+
+
+#main .page7 .left h4:hover{
+          cursor: pointer;
+          color: rgba(255, 255, 255, 0.701);
+}
+#main .page7 .left h2{
+       position: relative;
+       margin-top: 23%;
+       margin-right: 20%;
+       
+}
+#main .page7 .right{
+    position:relative;
+    width: 50vw;
+    height: 150vh;
+    right: 0;
+    overflow: hidden;
+    background-image:url(https://aztec-rum.com/wp-content/uploads/2022/03/AztecGoldRum-GuardiansOfTheRainforest-PanamaWildlife.jpg);
+}
+
+
+                                  /* --------------page8--------------- */
+#main .page8{
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    background-color: blue;
+}
+#main .page8 .box1{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+#main .page8  .box1 img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#main .page8  .box1 img:hover{
+ transform: scale(1.15);
+}
+#main .page8 .box2{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: red;
+}
+#main .page8  .box2 img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#main .page8  .box2 img:hover{
+ transform: scale(1.15);
+}
+#main .page8 .box3{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: green;
+}
+#main .page8  .box3 img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#main .page8  .box3 img:hover{
+ transform: scale(1.15);
+}
+#main .page8 .box4{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: red;
+}
+#main .page8  .box4 img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#main .page8  .box4 img:hover{
+ transform: scale(1.15);
+}
+                 /* ----------page9---------- */
+#main .page9{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    color: #54d670d9;
+    
+}
+
+#main .page9 img{
+    position: relative;
+    top: 5%;
+    left: 44%;
+}
+#main .page9 h1{
+     position: relative;
+     font-size: 20px;
+     left: 40%;
+     top: 6%;
+     color: #54d670d9;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ #main .page9 .social-media{
+    display: flex;
+    justify-content: center;
+    top: 40%;
+    left: 46%;
+    position: absolute;
+}
+#main .page9 .social-media a{
+  display: flex;
+  background:#54d670d9;
+  color: rgba(23, 24, 23, 0.991);
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 6px 6px 10px -1px rgba( 0,0, 0,0.15),
+               -6px  -6px 10px -1px rgba(255, 255, 255, 0.601);                 
+  font-size: 30px;
+  transition: 0.5s;
+}
+#main .page9 .social-media a:hover{
+  box-shadow: inset 4px 4px 6px -1px rgba( 0,0, 0,0.2),
+             inset  -4px  -4px 6px -1px rgba(255,255,255,0.7),
+             -0.5px -0.5px  0px rgba(255, 255, 255, 0.824),
+             0.5px 0.5px  0px rgba(0,0,0,0.15),
+             0px 12px   10px -10px rgba(0,0,0,0.05);
+
+}
+#main .page9 h2{
+    position: relative;
+    font-size: 18px;
+    left: 41%;
+    top: 25%;
+    color: #54d670d9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main .page9 form{
+       position: relative;
+       top: 30%;
+       left: 13%;
+       color: #54d670d9;
+}
+#main .page9 form input{
+              position: relative;
+              padding: 20px 200px;
+              color: #54d670d9;
+              background-color: rgba(58, 53, 53, 0.635);
+              border: none;
+}
+
+#main .page9 form span input{
+    position: relative;
+    padding: 20px 485px;
+    margin-top: 1%;
+}
+#main .page9  button{
+    position: relative;
+    top: 33%;
+    left: 44%;
+    padding: 12px 70px;
+    background: #000;
+    color: #54d670d9;
+    border: 1px solid #54d670d9;
+}
+#main .page9  button:hover{
+       border: 1px solid white;
+       color: white;
+       cursor: pointer;
+}
+
+             /* -------------page10------------ */
+#main .page10 {
+      position: relative;
+      width: 100vw;
+      height: 95vh;
+      overflow: hidden;
+      background-image: url(https://aztec-rum.com/wp-content/uploads/2022/03/Aztec-Golden-Rum%E2%84%A2-hero-Image-dark-eyes-2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  
+}
+#main .page10 .logo{
+     position: relative;
+     top: 47%;
+     left: 8%;
+     overflow: hidden;
+}
+#main .page10 h1{
+     position: relative;
+     color: #54d670d9;
+     font-family: monospace;
+     font-size: 15px;
+     letter-spacing: 1px;
+     top: 53%;
+     left: 8%;
+}
+#main .page10 ul{
+    position: relative;
+    color: #54d670d9;
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: 1px;
+    top: 58%;
+    left: 8%;
+    list-style: none;
+}
+#main .page10 ul li{
+    position: relative;
+    padding: 5px;
+}
+#main .page10 .col2 {
+     position: relative;
+     color: #54d670d9;
+     font-size: 15px;
+     left:25% ;
+     top: 13%;
+}
+#main .page10 .col2 h3{
+      position: relative;
+      margin-left: 8.5%;
+      margin-bottom: 3%;
+      font-size: 17px;   
+      font-family: monospace;
+}
+#main .page10 .col2 ul li{
+    padding: 10px;
+    position: relative;
+}
+
+#main .page10 .col3 {
+    position: relative;
+    color: #54d670d9;
+    font-size: 15px;
+    left:47% ;
+    bottom: 28%;
+}
+#main .page10 .col3 h3{
+     position: relative;
+     margin-left: 8.5%;
+     margin-bottom: 3%;
+     font-size: 17px;   
+     font-family: monospace;
+}
+#main .page10 .col3 ul li{
+   padding: 10px;
+   position: relative;
+}
+#main .page10 .col4 {
+    position: relative;
+    color: #54d670d9;
+    font-size: 15px;
+    left:74% ;
+    bottom: 74%;
+}
+#main .page10 .col4 h3{
+     position: relative;
+     margin-bottom: 3%;
+     font-size: 17px;   
+     font-family: monospace;
+}
+#main .page10 .col4 p{
+    padding: 10px;
+    position: relative;
+    font-family: monospace;
+    letter-spacing: 1px;
+ }
+
+
+
+ 
+
+
+
+@keyframes scroll{
+    0%{
+              transform: translateX(0);
+    }
+    100%{
+              transform: translateX(calc(-100% - 80px));
+    }
+  }
+
+
+
+
+    /* ------media querry---------- */
+@media (max-width:650px){
+    html{
+        font-size: 55%;
+    }
+    #nav{
+        font-size: 10px;
+    }
+    #main .page1 img{
+        position: relative;
+          left: 10%;    
+          width: 650px;
+    }
+    #main .page1 .text{
+        position: relative;
+        
+    }
+
+}
+
+
+@media (max-width:968px){
+    #nav{
+        font-size: 10px;
+    }
+    
+}
+
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+}
+#main .page1 img{
+    right: 25%;
+    position: relative;
+    width: 400px;
+}
+}
+
+                    
+
+
+
+
+
+
+                /* -----------cocktails----------- */
+ #main   .cocktails{
+        position: relative;
+             width: 100vw;
+             height: 100vh;
+    }
+    #main .cocktails .text{
+        position: relative;
+        left: 50%;
+        color: #54d670ba;
+        bottom: 50%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #main .cocktails .text p{
+        position: relative;
+          word-spacing: 5px;
+          padding: 15px 0;
+    }
+    #main .cock-imgs{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(https://aztec-rum.com/wp-content/uploads/2022/01/AztecRum-PanamaRainforest-HeroImage3.jpg);
+    }
+    #main .cock-imgs img{
+           position: relative;
+           left: 20%;
+           top: 2%;
+    }  
+    #main .cock-imgs h1{
+        width: 500px;
+        height: 320px;
+        left: 20%;
+        background: #000;
+        position: relative;      
+    } 
+    #main .cock-imgs p{
+         position: relative;
+         color: #54d670a3;
+         font-size: 15px;
+         font-family: 'Times New Roman', Times, serif;
+         padding: 20px;
+         word-spacing: 3px;
+         letter-spacing: 2px;
+    }
+
+ 
+   /* ---------environment-------- */
+   .environment{
+    width: 100vw;
+    height: 100vh;
+   
+   }
+ .environment .logo{
+               position: relative;
+               left: 60%;
+               bottom: 12%;
+ }
+ .environment h1 {
+    position: relative;
+    left: 12%;
+    top: 7%;
+ }
+ .environment p{
+    position: relative;
+    color: #54d670a3;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    word-spacing: 5px;
+    letter-spacing: 7px;
+    bottom: 48%;
+    left: 7%;
+ }
+
+ #main .environment-imgs{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://aztec-rum.com/wp-content/uploads/2022/03/AztecRum-PanamaLandscape-Environment.jpg);
+}
+#main .environment-imgs img{
+       position: relative;
+       left: 20%;
+       top: 2%;
+}  
+#main .environment-imgs h1{
+    width: 500px;
+    height: 320px;
+    left: 20%;
+    background: #000;
+    position: relative;      
+} 
+#main .environment-imgs p{
+     position: relative;
+     color: #54d670a3;
+     font-size: 15px;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 20px;
+     word-spacing: 3px;
+     letter-spacing: 2px;
+}
+                    /* --------guardians------- */
+.guardians{
+       width: 100%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 20px;
+}
+.guardians .logo{
+          position: relative;
+          bottom: 5%;
+}
+
+#main .guardians-imgs{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://aztec-rum.com/wp-content/uploads/2022/03/AztecGoldRum-GuardiandOfTheRainforestHero.jpg);
+}
+#main .guardians-imgs img{
+       position: relative;
+       left: 20%;
+       top: 2%;
+}  
+#main .guardians-imgs h1{
+    width: 500px;
+    height: 320px;
+    left: 20%;
+    background: #000;
+    position: relative;      
+} 
+#main .guardians-imgs p{
+     position: relative;
+     color: #54d670a3;
+     font-size: 15px;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 20px;
+     word-spacing: 3px;
+     letter-spacing: 2px;
+}
+
+                 /* ---------view----------- */
+.view{
+    width: 100vw;
+    height: 70vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.view img{
+    position: relative;
+    bottom: 5%;
+}
+.view .text{
+      width: 100vw;
+      height: 5vh;
+      position: relative;
+      display: flex;
+      top: 5%;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+}
+.view .text h1{
+    padding: 230px;
+    color: rgba(0, 0, 0, 0.696);
+}
+.view .text h1 i:hover{
+    cursor: pointer;
+    color: #000;
+}
+
+
+
+
+
+
+
+/* /* ---------------MediaQuerry-----------------  */
+@media (max-width:950px){
+    #nav{
+     display: none;
+    }
+}
+@media (max-width:600px){
+       #nav{
+        display: none;
+       }
+       #main{
+        width: 100vw;
+        height: 100vh;
+        background-color:#000;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: auto;
+}
+#main .container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container iframe{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 1;
+}
+#main .page1{
+    background-color: rgba(255, 248, 220, 0.822);
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+#main .page1 img{
+    margin-right: 20%;
+    margin-bottom: 20%;
+}
+#main .page1 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 8vw;
+    margin-right: 300px; 
+}
+
+#main .page1 h1{
+    margin-right: 370px;
+    font-size: 2vw;
+    width: 40vh;
+    bottom: 20%;
+}
+#main .page1 h2{
+    margin-right: 450px;
+    font-size: 2vw;
+    width: 40vh;
+    bottom: 20%;
+}
+#main .page1 h3{
+    margin-right: 79vw;
+    font-size: 2vw;
+    width: 40vh;
+    bottom: 20%;
+}
+
+#main .page1 h4{
+    margin-right: 100vw;
+    font-size: 2vw;
+    bottom: 50%;
+}
+#main .page1 .tatoo{
+    width: 40px;
+    height: 40px;
+    margin-right: 70vw;
+    margin-bottom: 40%;
+}
+#main .page1 .tatoo img{
+    width: 400px;
+    height: 100px;
+    
+}
+#main .page2 h1 img{
+    width: 100%;
+    left: 0.2%;
+}
+#main .page2 .images {
+        flex-direction: column; 
+        width: 100%; 
+        justify-content: center;  
+        align-items: center;
+        height: 10%;
+}
+
+
+
+
+
+#main .page3{  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#main .left{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 10%;
+}
+#main .right{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#main .left img{
+    height: 10vh; 
+    width: 100%;
+    margin-right: 40vw;
+ }
+ #main .right img{
+    height: 10vh; 
+    width: 100%;
+    margin-right: 40vw;
+ }
+
+ .left button{
+  margin-right: 70vw;
+  padding: 6px 10px;
+}
+.right button{
+    margin-right: 70vw;
+    padding: 2px 6px;
+  }
+  #main .page3 .slide{
+    width: 80px;
+    height: 40px;
+     margin-top: 20%;
+}
+#main .page4{
+    display: flex;
+    flex-direction:row;
+}
+#main .page4 .top{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#main .page4 .top .box1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+}
+#main .page4 .top .box2{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#main .page4 .top .box3{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#main .page4 .top .box4{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#main .page4 .bottom{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#main .page4 .bottom .box1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+}
+#main .page4 .bottom .box2{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#main .page4 .bottom .box3{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#main .page4 .bottom .box4{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#main .page5 p{
+    font-size: 10px;
+}
+#main .page5 img{
+    width: 230px;
+    height: 100px;
+}
+#main .page5 button{
+    padding: 10px 20px;
+    left: 36%;
+}
+
+#main .page6{
+    width: 100%;
+}
+#main .page6 img{
+    width: 100px;
+    height: 50px;
+}
+#main .page7 {
+    display: flex;
+    flex-direction: column;
+}
+#main .page7 .left{
+    width: 100%;
+    height: 50%;
+}
+#main .page7 .left img{
+    width: 150px;
+    height: 150px;
+}
+#main .page7 .left h3{
+    font-size: 3vw;
+    right: 10%;
+}
+#main .page7 .left p{
+    font-size: 2.2vw;
+}
+
+#main .page7 .right{
+    width: 100%;
+    height: 50%;
+}
+#main .page8{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+#main .page8 .box1{
+    width: 50%;
+    height: 50%;
+}
+#main .page8 .box2{
+    width: 50%;
+    height: 50%;
+}
+#main .page8 .box3{
+    width: 50%;
+    height: 50%;
+}
+#main .page8 .box4{
+    width: 50%;
+    height: 50%;
+}
+#main .page9  img{
+    width: 100px;
+    height: 100px;
+    left: 42%;
+}
+#main .page9 h1{
+    font-size: 15px;
+    left: 29%;
+}
+#main .page9 .social-media {
+    height: 5vh;
+    top: 25vh;
+    left: 38vw;
+}
+#main .page9 h2{
+        font-size: 18px;
+        left: 25%;
+}
+#main .page9 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    left: 18%;
+}
+#main .page9 form input{
+    padding: 10px 100px;
+    margin-bottom: 5px;
+    text-align: start;
+}
+#main .page9 form span input{
+    padding: 15px 180px;
+    position: absolute;
+     right: 23%;
+}
+#main .page9 button{
+    left: 32%;
+    top: 45%;
+}
+#main .page10 .logo{
+    left: 30%;
+}
+#main .page10 .logo img{
+          width: 200px;
+          height: 100px;
+}
+#main .page10 ul li{
+    font-size: 8px;
+}
+#main .page10 ul {
+    left: 0;
+}
+#main .page10 h3{
+    font-size: 12px;
+}
+#main .page10 h1{
+    left: 0;
+}
+#main .page10 p{
+    font-size: 8px;
+    padding-bottom: 5px;
+}
+#main .page10 .col2{
+    left: 23%;
+    top: 35.5%;
+}
+#main .page10 .col2 h3{
+    font-size: 12px;
+    right: 7%;
+}
+#main .page10 .col3 h3{
+    font-size: 12px;
+    right: 7%;
+}
+#main .page10 .col3{
+    left: 47%;
+    top: 8%;
+}
+
+#main .page10 .col4{
+    left: 68%;
+    bottom: 23%;
+}
+#main .page10 .col4 h3{
+    font-size: 12px;
+    left: 2%;
+}
+
+
+
+} 
+             
