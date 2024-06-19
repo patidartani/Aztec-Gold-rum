@@ -1,0 +1,120 @@
+.PiramalApp{
+          width: 100%;
+          height: auto;
+          margin-top: 5vmax;
+}
+.PiramalApp .App{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+} 
+.PiramalApp .App .DownloadApp{
+          width: 80%;
+          height: 20vmax;
+          border-radius: 20px;
+          display: flex;
+          background-image: url("../assets/images/PiramalAppDownloadImg.png");
+ background-position: center;
+ background-size: cover;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+}
+.PiramalApp .App .DownloadApp .text{
+          width: 40%;
+          height: 15vmax;
+          position: relative;
+          right: 25%;
+}
+.PiramalApp .App .DownloadApp .text h4{
+          color: #fff;
+          font-size: 2vmax;
+}
+.PiramalApp .App .DownloadApp .text p{
+          color: #fff;
+          font-size: 1.4vmax;
+}
+.PiramalApp .App .DownloadApp .text .buton{
+          display: flex;
+          margin-top: 3vmax;
+          align-items: flex-start;
+          justify-content: flex-start;
+}
+.PiramalApp .App .DownloadApp .text .buton .googlePlayButton{
+          width: 35%;
+          border: none;
+          background: none;
+          height: auto;
+}
+.PiramalApp .App .DownloadApp .text .buton .googlePlayButton img{
+          width: 100%;
+          height: 3.5vmax;
+}
+.PiramalApp .App .DownloadApp .text .buton .appStoreButton{
+          width: 35%;
+          border: none;
+          background: none;
+          height: auto;
+}
+.PiramalApp .App .DownloadApp .text .buton .appStoreButton img{
+          width: 100%;
+          height: 3.5vmax;
+}
+@media (max-width:600px) {
+          .PiramalApp .App{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+          } 
+          .PiramalApp .App .DownloadApp{
+                    width: 90%;
+                    height: 20vmax;
+          }
+          .PiramalApp .App .DownloadApp .text .buton .appStoreButton img{
+                    width: 100%;
+                    height: 4vmax;
+          }
+          .PiramalApp .App .DownloadApp .text .buton .googlePlayButton img{
+                    width: 100%;
+                    height: 4vmax;
+          }
+          .PiramalApp .App .DownloadApp .text .buton{
+                    display: flex;
+                    margin-top: 3vmax;
+                    width: 200%;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+          }
+}
+@media (min-width:600px) and (max-width:850px) {
+          .PiramalApp .App{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+          } 
+          .PiramalApp .App .DownloadApp{
+                    width: 90%;
+                    height: 20vmax;
+          }
+          .PiramalApp .App .DownloadApp .text .buton .appStoreButton img{
+                    width: 100%;
+                    height: 4vmax;
+          }
+          .PiramalApp .App .DownloadApp .text .buton .googlePlayButton img{
+                    width: 100%;
+                    height: 4vmax;
+          }
+          .PiramalApp .App .DownloadApp .text .buton{
+                    display: flex;
+                    margin-top: 3vmax;
+                    width: 200%;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+          }
+}

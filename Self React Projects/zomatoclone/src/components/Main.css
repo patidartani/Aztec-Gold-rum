@@ -1,0 +1,61 @@
+.MainPage {
+          width: 100%;
+}
+.MainPage .main {
+          width: 100%;
+          height: 40vmax;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-image: url("../assets/MainImg.avif");
+}
+.MainPage .main .text {
+          width: 100%;
+          height: 40vmax;
+}
+.MainPage .main .text .top {
+          width: 100%;
+          height: 5vmax;
+          background: #00000046;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+}
+.MainPage .main .text .top a {
+          text-decoration: none;
+          position: relative;
+          color: #fff;
+          margin-right: 5vmax;
+          font-size: 1.3vmax;
+}
+
+.MainPage .main .text .top a::after {
+          content: '';
+          width: 0%;
+          height: 2px;
+          background:#fff;
+          display: block;
+          margin: auto;    
+          transition: 0.5s;
+}
+.MainPage .main .text .top a:hover::after {
+          width: 100%;
+}
+.MainPage .main .text .bottom {
+          width: 100%;
+          height: 35vmax;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.MainPage .main .text .bottom img {
+          width: 25%;
+          margin-bottom: 2vmax;
+}
+.MainPage .main .text .bottom p {
+          color: #fff;
+          font-size: 2vmax;
+}
+
+

@@ -1,0 +1,102 @@
+.LogIn{
+          width: 100%;
+          background: #000000e7;
+          z-index: 1111;
+          position: absolute;
+          top: 0;
+          height: 40vmax;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.LogIn .loginPage{
+          width: 30%;
+          background: #fff;
+          height: 30vmax;
+          border-radius: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+}
+.LogIn .loginPage h5{
+          width: 90%;
+          height: 5vmax;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          color: rgba(0, 0, 0, 0.774);
+          font-size: 2vmax;
+          font-family: Arial, Helvetica, sans-serif;
+}
+.LogIn .loginPage form{
+         display: flex;
+         width: 100%;
+         height: 25vmax;
+         align-items: center;
+         justify-content: space-evenly;
+         flex-direction: column;
+}
+.LogIn .loginPage form input{
+          width: 90%;
+          border: 0.5px solid #0000006f;
+          border-radius: 5px;
+          padding: 0.7vmax 1vmax;
+ }
+ .LogIn .loginPage form h2 {
+          width: 90%;
+          margin-top: 1vmax;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgb(255, 72, 100);
+          border-radius: 5px;
+          padding: 1vmax 1vmax;
+ }
+ .LogIn .loginPage form h2 a{
+        text-decoration: none;
+        font-size: 1vmax;
+        color: #fff;
+        font-weight: 500;
+ }
+ .LogIn .loginPage form p{
+          width: 90%;
+          font-size: 1.2vmax;
+          text-align: center;
+          color: rgba(0, 0, 0, 0.5);
+        font-family: Arial, Helvetica, sans-serif;
+ }
+ .LogIn .loginPage form .btnss{
+          width: 90%;
+          display: flex;
+          margin-bottom: 2vmax;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+ }
+ .LogIn .loginPage form .btnss button{
+          width: 100%;
+          border: 1px solid #00000075;
+          color: #070707b0;
+          font-family: Arial, Helvetica, sans-serif;
+          background: none;
+          margin-bottom: 1vmax;
+          border-radius: 5px;
+          padding: 0.7vmax 1vmax;
+ }
+ .LogIn .loginPage form .btnss button i{
+         font-size: 1.2vmax;
+ }
+
+
+ .LogIn .loginPage form h3{
+        width: 90%;
+        font-size: 1vmax;
+        margin-bottom: 2vmax;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(0, 0, 0, 0.79);
+ }
+ .LogIn .loginPage form h3 a{
+         text-decoration: none;
+         font-weight: 300;
+   }

@@ -1,0 +1,105 @@
+.ExistingCustomer{
+          width: 100%;
+          height: auto;
+          padding: 4vmax;
+}
+.ExistingCustomer .Existing{
+          width: 100%;
+          height: auto;
+          /* background: #eeeeee; */
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          flex-direction: column;
+}
+.ExistingCustomer .Existing .last{
+          width: 90%;
+          height: auto;
+          /* background: #eeeeee; */
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+}
+.ExistingCustomer .Existing .last .box{
+          width: 20%;
+          margin-top: 1vmax;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
+}
+.ExistingCustomer .Existing .last .box h6{
+          font-size: 1.2vmax;
+          font-weight: 700;
+          margin-top: 1vmax;
+}
+.ExistingCustomer .Existing h4{
+          font-size: 2.3vmax;
+          width: 90%;
+          height: auto;
+          font-weight: 700;
+}
+.ExistingCustomer .Existing p{
+          font-size: 1.3vmax;
+          width: 90%;
+          margin-top: 1vmax;
+          height: auto;
+}
+@media (max-width:600px) {
+          .ExistingCustomer .Existing{
+                    width: 100%;
+                    height: auto;
+          }
+          .ExistingCustomer .Existing .last{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    flex-direction: column;
+          }
+          .ExistingCustomer .Existing .last .box{
+                    width: 100%;
+                    height: auto;
+          }
+          .ExistingCustomer .Existing .last .box h6{
+                    font-size: 2vmax;
+          }
+          .ExistingCustomer .Existing h4{
+                    font-size: 3vmax;
+          }
+          .ExistingCustomer .Existing p{
+                    font-size: 1.8vmax;
+          }
+}
+
+@media (min-width:600px) and (max-width:850px) {
+          .ExistingCustomer .Existing{
+                    width: 100%;
+                    height: auto;
+          }
+          .ExistingCustomer .Existing .last{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    flex-direction: column;
+          }
+          .ExistingCustomer .Existing .last .box{
+                    width: 100%;
+                    height: auto;
+          }
+          .ExistingCustomer .Existing .last .box h6{
+                    font-size: 2.5vmax;
+          }
+          .ExistingCustomer .Existing h4{
+                    font-size: 3.3vmax;
+          }
+          .ExistingCustomer .Existing p{
+                    font-size: 2vmax;
+          }
+}
+

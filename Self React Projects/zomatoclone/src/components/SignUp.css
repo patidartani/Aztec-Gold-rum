@@ -1,0 +1,80 @@
+.SignUp{
+          width: 100%;
+          background: #000000cb;
+          z-index: 1111;
+          position: absolute;
+          top: 0;
+          height: 40vmax;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.SignUp .signupPage{
+          width: 30%;
+          background: #fff;
+          height: 35vmax;
+          border-radius: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+}
+.SignUp .signupPage h5{
+          width: 90%;
+          height: 5vmax;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          color: rgba(0, 0, 0, 0.774);
+          font-size: 2vmax;
+          font-family: Arial, Helvetica, sans-serif;
+}
+.SignUp .signupPage form{
+         display: flex;
+         width: 100%;
+         height: 30vmax;
+         align-items: center;
+         justify-content: space-evenly;
+         flex-direction: column;
+}
+.SignUp .signupPage form input{
+          width: 90%;
+          border: 0.5px solid #0000006f;
+          border-radius: 5px;
+          padding: 0.7vmax 1vmax;
+ }
+ .SignUp .signupPage form p{
+          width: 90%;
+          color: rgba(0, 0, 0, 0.5);
+        font-family: Arial, Helvetica, sans-serif;
+ }
+ .SignUp .signupPage form .btns{
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+ }
+ .SignUp .signupPage form .btns button{
+          width: 100%;
+          background-color: rgb(255, 72, 100);
+          color: #f8f6f6c6;
+          border:none;
+          border-radius: 5px;
+          padding: 0.7vmax 1vmax;
+ }
+ .SignUp .signupPage form .btns button i{
+         font-size: 1.2vmax;
+ }
+
+
+ .SignUp .signupPage form h3{
+        width: 90%;
+        font-size: 1.3vmax;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(0, 0, 0, 0.79);
+ }
+ .SignUp .signupPage form h3 a{
+         text-decoration: none;
+         font-weight: 300;
+   }
